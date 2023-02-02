@@ -1,0 +1,23 @@
+.chart-container{
+/*     
+    Hacky way to put the gradient borders before I discovered 2D canvas.
+    height: 400px;
+    border-width: 20px;
+    border-style: solid;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    padding-right: -100px;  
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #da7227, 
+      #ddd6d7,
+      #2595cd
+    ) 1 100%; */
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#e8eef1;
+}
+main{
+  background-color: gray;
+}
