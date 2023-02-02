@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Mirror 360 Charts</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <!--
@@ -11,17 +11,17 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="chart-styles.css" />
     <script type="module" src="chart-util.js"></script>
-    <script type="module" src="script.js"></script>
+    <script type="module" src="gradient-line-chart.js"></script>
   </head>
   <body>
     <nav>
-      <a href="/" aria-current="page">Line Chart</a>
+      <a href="/" aria-current="page">Gradient Line Chart</a>
       <a href="/page2.html">Other page</a>
     </nav>
     <main>
       <h1>Line Chart</h1>
       <div id="mychartContainer" class="chart-container" style="height:400px">
-        <canvas style="height:100%" id="myChart" width="400" height="400"></canvas>
+        <canvas style="height:100%" id="linechart" width="400" height="400"></canvas>
       </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
